@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddFriendComponent } from './add-friend/add-friend.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:"",component:AddFriendComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
